@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!DOCTYPE articulo [
+    <!ELEMENT articulo (nombre,figura,descripcion,precio)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT figura (imagen,pie)>
+    <!ELEMENT imagen (#PCDATA)>
+    <!ELEMENT pie    (#PCDATA)>
+    <!ELEMENT descripcion (#PCDATA)>
+    <!ELEMENT precio  (#PCDATA)>
+]>
+<articulo>
+<nombre>Placa xs</nombre>
+<figura>
+	<imagen>prueba.png</imagen>
+	<pie>Perfil de la placa</pie>
+</figura>
+<descripcion>La nueva y increible Placa xs te cambiara la forma de ver todo</descripcion>
+<precio>134€</precio>
+</articulo>

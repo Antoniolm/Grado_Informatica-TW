@@ -1,0 +1,118 @@
+<!doctype html>
+<html>
+<head>
+<title>Ejercicio 2</title>
+<meta charset = "UTF-8" />
+<link rel = "stylesheet" type = "text/css" href = "../estilo.css" />
+</head>
+<body>
+	<aside id="asidedch">
+	<img src="../imagenes/publicidad2.png"></img>
+	</aside>
+	<aside id="asideup">
+	<img src="../imagenes/publicidad.png"></img>
+	</aside>
+	<section id="secprin">
+		<header id ="head">
+		<img src="../imagenes/logo.png"></img>
+		</header>
+		<nav>
+		<ul id="menu">
+		<li><a href="../index.html">Inicio</a></li>
+		<li><a href="portatil.html">Portatiles</a></li>
+		<li><a href="sobremesa.html">SobreMesa</a></li>
+		<li><a href="componentes.html">Componentes</a></li>
+		<li><a href="redes.html">Redes</a></li>
+		<li><a href="#">Perifericos</a></li>
+		</ul>
+		</nav>
+		<h1 id="cajon-color-peri"> Perifericos</h1>
+		<section id="articulodestacado-peri">
+		<fieldset><legend><h3>Articulo Destacado</h3></legend></fieldset>
+		</section>
+		<section id="secprod1">
+				<article id="prodest">
+				<img src="../imagenes/logo.png"></img>
+				<section id="descrip">
+				<h4>Placa base X3</h4>
+				<p>Esto es una prueba de una breve descripcion de un producto para ver el margen que tengo</p>
+				<p>Precio: 345 euros</p>
+				</section>
+			</article>
+			<article id="prodest">
+				<img src="../imagenes/logo.png"></img>
+				<section id="descrip">
+				<h4>Placa base X3</h4>
+				<p>Esto es una prueba de una breve descripcion de un producto para ver el margen que tengo</p>
+				<p>Precio: 345 euros</p>
+				</section>
+			</article>
+			<article id="prodest">
+				<img src="../imagenes/logo.png"></img>
+				<section id="descrip">
+				<h4>Placa base X3</h4>
+				<p>Esto es una prueba de una breve descripcion de un producto para ver el margen que tengo</p>
+				<p>Precio: 345 euros</p>
+				</section>
+			</article>
+			<article id="prodest">
+				<img src="../imagenes/logo.png"></img>
+				<section id="descrip">
+				<h4>Placa base X3</h4>
+				<p>Esto es una prueba de una breve descripcion de un producto para ver el margen que tengo</p>
+				<p>Precio: 345 euros</p>
+				</section>
+			</article>
+		</section>
+
+
+		<!--SEgunda seccion de productos //revisar con el profesor funcionalidad -->
+		<section id="secprod2">
+			<article id="prodest">
+				<img src="../imagenes/logo.png"></img>
+				<section id="descrip">
+				<h4>Placa base X3</h4>
+				<p>Esto es una prueba de una breve descripcion de un producto para ver el margen que tengo</p>
+				<p>Precio: 345 euros</p>
+				</section>
+			</article>
+			<article id="prodest">
+				<img src="../imagenes/logo.png"></img>
+				<section id="descrip">
+				<h4>Placa base X3</h4>
+				<p>Esto es una prueba de una breve descripcion de un producto para ver el margen que tengo</p>
+				<p>Precio: 345 euros</p>
+				</section>
+			</article>
+		</section>
+
+		<section id="secanun1">
+			<article id="ultnoticias">
+				<h4>Noticia de ultima hora</h4>
+				<p>Tenemos un 2x1 en cables de fibra optica de última generación</p>
+			</article>
+			<article id="anuncion">
+				<img src="../imagenes/publicidad.png"></img>
+			</article>
+			<article id="anuncion">
+				<img src="../imagenes/publicidad.png"></img>
+			</article>
+		</section>
+
+		<footer id="pie">
+			<ul>
+			<li>Codigo Postal:18125</li>
+			<li>Telefono: 65456781</li>
+			<li>Correo Electronico:Tiendinfor@correo.com</li>
+			</ul>
+			<ul>
+			<li>Autor:Antonio David López Machado</li>
+			<li><a href="../contacto.html">Formulario de contacto</a></li>
+			</ul>
+		</footer>
+	</section>
+	<aside id="asideizq">
+	<img src="../imagenes/publicidad2.png"></img>
+	</aside>
+</body>
+</html>

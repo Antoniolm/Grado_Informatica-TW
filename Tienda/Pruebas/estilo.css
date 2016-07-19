@@ -1,0 +1,319 @@
+#asideup{
+	float:right;
+	height:100px;
+	width:70%;
+}
+#asideup img{
+	height:100px;
+	width:100%;
+}
+#asideizq{
+	float:center;
+	width:9%;
+	margin-left:5%;
+	height:700px;
+
+}
+#asidedch{
+	float:right;
+	width:9%;
+	margin-left:1%;
+	margin-right:5%;
+	height:700px;
+
+}
+#asideizq img,#asidedch img{
+	width:100%;
+	height:700px;
+}
+#secprin{
+	float:right;
+	margin-top:1%;
+	margin-bottom:20px;
+	width:70%;
+	border: 2px solid gray;
+	background-color:#EAE4E3;
+	/*border-radius: 0px 0px 25px 25px;*/
+}
+/*Titulos para la portada, nos identifican los 3 apartados de esta pagina*/
+#title-portada1{
+	float:left;
+	width:35%;
+	margin-top:0%;
+	margin-left:1%;
+	
+}
+#title-portada2{
+	float:left;
+	margin-top:0%;
+	width:30.5%;
+	margin-left:1%;
+}
+#title-portada3{
+	float:left;
+	margin-top:0%;
+	width:30%;
+	margin-left:1%;
+}
+/*Id para indicar la etiqueta */
+#etiqueta{
+	width:30%;
+	padding-left:2%;
+	padding-top:1%;
+	padding-bottom:1%;
+	margin-bottom:0%;
+	margin-top:-1%;
+	border-radius: 25px 25px 0px 0px;
+}
+/*Color del cajon del nombre de las secciones*/
+#cajon-color-port{
+	background-color:#8B2626;
+}
+#cajon-color-sobre{
+	background-color:#38B5A0;
+}
+#cajon-color-comp{
+	background-color:#BCBF13;
+}
+#cajon-color-redes{
+	background-color:#ED8F1C;
+}
+#cajon-color-peri{
+	background-color:#8B36A4;
+}
+/*Cabecera donde se posicionara la imagen
+  con el nombre y el logo de la tienda*/
+#head ,#head img{
+	height:110px;
+	width:100%;
+	margin-bottom:-14px;
+}
+/*Estilo para nuestro menu horizontal*/
+#menu{
+	background-color:#208935;
+	padding-bottom:10px;
+	padding-top:10px;
+}
+#menu li{
+	display:inline;
+	text-decoration:none;	
+}
+#menu li a{
+	font-size:20px;
+	text-decoration:none;
+	padding-left:3%;
+	padding-right:3%;
+	color:white;
+}
+#menu li a:hover {
+	background-color:#1F5C2B;
+	padding-bottom:10px;
+	padding-top:10px;
+}
+
+/*Primera seccion:Productos destacados*/
+#secprod1{
+	float:left;
+	background-color:#EAE4E3;
+	border-top:1px solid gray;
+	border-left:1px solid gray;
+	border-bottom:1px solid gray;
+	width:35%;
+	height:540px;	
+	margin-left:1%;
+	padding-bottom:15px;
+	overflow-x:hidden;
+	overflow-y:scroll;
+
+}
+#secprod2{
+	float:left;
+	background-color:#EAE4E3;
+	width:30.5%;
+	margin-left:1%;
+	height:550px;
+	overflow-x:hidden;
+	overflow-y:scroll;
+}
+#secanun1{
+	float:left;
+	background-color:white;
+	width:30%;
+	margin-left:1%;
+	height:550px;
+}
+#pie{
+	float:left;
+	background-color:#208935;
+	width:100%;
+	height:100px;
+	margin-top:2%;
+	border-top: 2px solid gray;
+	/*border-radius: 0px 0px 25px 25px;*/
+}
+#pie ul{
+	float:left;
+	margin-left:5%;
+}
+#pie li a{
+	text-decoration:none;
+}
+
+#prodest {
+	height:200px;
+	background-color:white;
+	margin-left:1%;
+	margin-top:1%;
+	border:1px solid gray;
+	border-radius: 10px 10px 10px 10px;
+}
+/*#prodest img{
+	float:left;
+	width:40%;
+	margin-left:1%;
+	height:25%;
+}
+#prodest pie{
+	float:left;
+	width:40%;
+	background-color:red;
+	margin-left:3%;
+	margin-top:1%;
+	padding-right:0%;
+}*/
+#imagen-arti{
+	float:left;
+	width:40%;
+	margin-left:1%;
+	margin-top:1%;
+}
+#imagen-arti img{
+	width:100%;
+	height:100px;
+}
+#imagen-arti pie{
+	float:left;
+}
+/* Estilo para el xml*/
+#descrip{
+	float:left;
+	width:60%;
+	height:200px;
+	margin-top:1%;
+}
+#descrip nombre{
+	float:left;
+	font-size:20px;
+	font-weight:bold;
+}
+#descrip descripcion{
+	float:left;
+}
+#descrip precio{
+	float:left;
+	background-color:orange;
+	padding-top:1%;
+	text-align:center;
+	width:40%;
+	height:12%;
+	border-radius: 10px 10px 10px 10px;
+	
+}
+/* Estilo para el xml*/
+#descrip{
+	float:left;
+	width:55%;
+	margin-left:1%;
+}
+#descrip nombre{
+	float:left;
+	font-size:20px;
+	margin-left:1%;
+}
+
+/*Seccion de ultimas noticias y anuncios*/
+#ultnoticias{
+	float:left;
+	width:95%;
+	height:30%;
+	background-color:white;
+	margin-left:2.5%;
+	margin-top:5%;
+}
+#anuncion{
+	float:left;
+	width:95%;
+	height:62.5%;
+	background-color:white;
+	margin-left:2.5%;
+	margin-top:5%;
+
+}
+/*Seccion para el formulario*/
+#contacto{
+	width:95%;
+	height:65.5%;
+}
+#contacto fieldset{
+	margin-left:5%;
+}
+#contacto form{
+	margin-left:5%;
+}
+
+#contacto input{
+	margin-top:3%;
+	margin-right:3%;
+}
+/*///////////////////////////////*/
+/*Secciones*/
+/*///////////////////////////////*/
+#articulodestacado-sobre{/*border relativo a la seccion*/
+	border-radius: 0px 15px 0px 0px;
+	border-top:1px solid #38B5A0;
+	margin-bottom:2%;
+}
+#articulodestacado-port{/*border relativo a la seccion*/
+	border-radius: 0px 15px 0px 0px;
+	border-top:1px solid #8B2626;
+	margin-bottom:2%;
+}
+
+#articulodestacado-peri{/*border relativo a la seccion*/
+	border-radius: 0px 15px 0px 0px;
+	border-top:1px solid #8B36A4;
+	margin-bottom:2%;
+}
+
+#articulodestacado-redes{/*border relativo a la seccion*/
+	border-radius: 0px 15px 0px 0px;
+	border-top:1px solid #ED8F1C;
+	margin-bottom:2%;
+}
+#articulodestacado-comp{/*border relativo a la seccion*/
+	border-radius: 0px 15px 0px 0px;
+	border-top:1px solid #BCBF13;
+	margin-bottom:2%;
+}
+/*///////////////////////////////*/
+/*Productos*/
+/*///////////////////////////////*/
+#producto{
+	width:70%;
+}
+#opinion{
+	float:left;
+	border: 1px solid gray;
+	margin-top:-7%;
+	margin-left:1%;
+	width:69%;
+}
+#opinion h3{
+	margin-left:1%;
+	margin-top:0%;
+}
+
+
+
+
+

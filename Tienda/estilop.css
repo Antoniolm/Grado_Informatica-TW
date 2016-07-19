@@ -1,0 +1,79 @@
+#secprin{
+	float:left;
+	margin-top:1%;
+	margin-bottom:20px;
+	width:70%;
+	border: 2px solid gray;
+	background-color:#EAE4E3;
+	/*border-radius: 0px 0px 25px 25px;*/
+}
+#secprin h1{
+	width:30%;
+	padding-left:2%;
+	padding-top:1%;
+	padding-bottom:1%;
+	margin-bottom:0%;
+	margin-top:-1%;
+	border-radius: 25px 25px 0px 0px;
+}
+#secprod1{
+	float:left;
+	background-color:#EAE4E3;
+	border-top:1px solid gray;
+	border-left:1px solid gray;
+	border-bottom:1px solid gray;
+	width:35%;
+	height:540px;	
+	margin-left:1%;
+	padding-bottom:15px;
+	overflow-x:hidden;
+	overflow-y:scroll;
+
+}
+#prodest{
+	background-color:red;
+	width:95%;
+	margin-left:2.5%;
+	margin-bottom:-3%;
+}
+#prodest figure{
+	float:left;
+	width:40%;
+	margin-left:3%;
+	margin-top:5%;
+	height:50%;
+}
+#prodest figure figcaption{
+	float:left;
+	width:100%;
+}
+#prodest img{
+	float:left;
+	width:100%;
+	height:50%;
+}
+/* Estilo para el xml*/
+#descrip{
+	float:left;
+	width:52%;
+	margin-left:-10%;
+}
+#descrip nombre{
+	float:left;
+	font-size:20px;
+	font-weight:bold;
+}
+#descrip descripcion{
+	float:left;
+}
+#descrip precio{
+	float:left;
+}
+
+
+
+
+
+
+
+

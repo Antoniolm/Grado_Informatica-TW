@@ -1,0 +1,67 @@
+<?php
+$categoria = isset($_GET['cat']) ? $_GET['cat'] : '';
+
+if($categoria==''){
+	require_once('inicio.php');
+}
+elseif($categoria=='portatil'){
+	require_once('portatil.php');
+}
+elseif($categoria=='smesa'){
+	require_once('sobremesa.php');
+}
+elseif($categoria=='comp'){
+	require_once('componentes.php');
+}
+elseif($categoria=='redes'){
+	require_once('redes.php');
+}
+elseif($categoria=='peri'){
+	require_once('perifericos.php');
+}
+elseif($categoria=='contact'){
+	require_once('contacto.php');
+}
+elseif($categoria=='registrarse'){
+	require_once('registro.php');
+}
+elseif($categoria=='nproducto'){
+	require_once('crear_producto.php');
+}
+elseif($categoria=='nanuncio'){
+	require_once('crear_anuncio.php');
+}
+elseif($categoria=='listan'){
+	require_once('lista_anuncios.php');
+}
+elseif($categoria=='modian'){
+	require_once('modificar_anuncio.php');
+}
+elseif($categoria=='listap'){
+	require_once('lista_producto.php');
+}
+elseif($categoria=='modip'){
+	require_once('modificar_producto.php');
+}
+elseif($categoria=='nnoticia'){
+	require_once('crear_noticia.php');
+}
+elseif($categoria=='listanoti'){
+	require_once('lista_noticia.php');
+}
+elseif($categoria=='modinoti'){
+	require_once('modificar_noticia.php');
+}
+elseif($categoria=='mont_22'){
+	require_once('./perifericos/Monitor_Samsung_22_LED_20150311.php');
+}
+elseif($categoria=='TP'){
+	require_once('./redes/TP_Wireless_Router_11n_20150411.php');
+}
+elseif($categoria=='disco'){
+	require_once('./componentes/DiscoDuro_Seagate_1TB_SATA3_20150411.php');
+}
+elseif($categoria=='Port_HP'){
+	require_once('./portatil/Portatil_HP_Intel _15_20150411.php');
+}
+?>

@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+<title>Ejercicio 2</title>
+<meta charset = "UTF-8" />
+<link rel = "stylesheet" type = "text/css" href = "estilop.css" />
+<xml id="2" src="producto.xml"></xml>
+</head>
+<body>
+	<section id="secprin">
+		<section id="secprod1">
+				<articulo id="prodest">
+					<figura>
+						<figure>
+						<img src="./imagenes/logo.png" alt = "figura de ejemplo" />
+						<figcaption>Texto explicativo de la figura.</figcaption>
+						</figure>
+					</figura>
+					<section id="descrip">
+						<nombre>Placa xs</nombre>
+						<descripcion><p>La nueva y increible Placa xs te cambiara la forma de ver todo</p></descripcion>
+						<precio>134€</precio>
+					</section>
+				</articulo>
+
+		</section>
+	</section>
+</body>
+</html>

@@ -1,0 +1,507 @@
+/*/////////////////////////////////////////////////////*/
+/*Aside de publicidad Superior*/
+/*////////////////////////////////////////////////////*/
+#asideup{
+	float:right;
+	height:100px;
+	width:70%;
+}
+#asideup img{
+	height:100px;
+	width:100%;
+}
+/*/////////////////////////////////////////////////////*/
+/*Aside de publicidad izquierdo*/
+/*////////////////////////////////////////////////////*/
+#asideizq{
+	float:center;
+	width:9%;
+	margin-left:5%;
+	height:700px;
+
+}
+/*/////////////////////////////////////////////////////*/
+/*Aside de publicidad derecho*/
+/*////////////////////////////////////////////////////*/
+#asidedch{
+	float:right;
+	width:9%;
+	margin-left:1%;
+	margin-right:5%;
+	height:700px;
+
+}
+#asideizq img,#asidedch img{
+	width:100%;
+	height:700px;
+}
+/*///////////////////////////////////////////////////////////////*/
+/*Seccion principal donde se contiene el header,menu, footer,etc*/
+/*//////////////////////////////////////////////////////////////*/
+#secprin{
+	float:right;
+	margin-top:1%;
+	margin-bottom:20px;
+	width:70%;
+	border: 2px solid gray;
+	background-color:#EAE4E3;
+	box-shadow: 2px 2px 0px 0px #241424;
+	/*border-radius: 0px 0px 25px 25px;*/
+}
+/*Titulos para la portada y secciones de producto,
+ nos identifican los 3 apartados de esta pagina*/
+#title-portada1{
+	float:left;
+	width:35%;
+	margin-top:0%;
+	margin-left:1%;
+	
+}
+#title-portada2{
+	float:left;
+	margin-top:0%;
+	width:30.5%;
+	margin-left:1%;
+}
+#title-portada3{
+	float:left;
+	margin-top:0%;
+	width:30%;
+	margin-left:2%;
+}
+/*Id para indicar la etiqueta(creo el cajon del nombre de las secciones) */
+#secprin h1{
+	width:30%;
+	padding-left:2%;
+	padding-top:1%;
+	padding-bottom:1%;
+	margin-bottom:0%;
+	margin-top:-1%;
+	border-radius: 25px 25px 0px 0px;
+}
+/*Color del cajon del nombre de las secciones*/
+#cajon-color-port{/* Portatiles*/
+	background-color:#8B2626;
+}
+#cajon-color-sobre{/* SobreMesa*/
+	background-color:#38B5A0;
+}
+#cajon-color-comp{/* Componentes*/
+	background-color:#BCBF13;
+}
+#cajon-color-redes{/* redes*/
+	background-color:#ED8F1C;
+}
+#cajon-color-peri{/* Perifericos*/
+	background-color:#8B36A4;
+}
+/*Cabecera donde se posicionara la imagen
+  con el nombre y el logo de la tienda*/
+#head ,#head img{
+	height:110px;
+	width:100%;
+	margin-bottom:-14px;
+}	
+/*Estilo para nuestro menu horizontal*/
+#menu{
+	background-color:#208935;
+	padding-bottom:2%;
+	padding-top:1%;
+}
+#menu li, #menu form li{
+	display:inline;
+	text-decoration:none;	
+}
+#menu li form{
+	font-size:12px;
+	float:right;
+	margin-right:-23%;
+}
+#menu li button{
+	font-size:10px;
+}
+#menu li a{
+	font-size:20px;
+	text-decoration:none;
+	padding-left:1%;
+	padding-right:1%;
+	color:white;
+}
+#menu li a:hover {
+	background-color:#1F5C2B;
+	padding-bottom:1%;
+	padding-top:1%;
+}
+#ad{
+font-size:5px;
+}
+/*/////////////////////////////////////////*/
+/*Primera seccion de productos en la portada
+y secciones*/
+/*/////////////////////////////////////////*/
+#secprod1{
+	float:left;
+	background-color:#EAE4E3;
+	border-top:1px solid gray;
+	border-left:1px solid gray;
+	border-bottom:1px solid gray;
+	width:35%;
+	height:540px;	
+	margin-left:1%;
+	padding-bottom:15px;
+	overflow-x:hidden;
+	overflow-y:scroll;
+
+}
+/*/////////////////////////////////////////*/
+/*Segunda seccion de productos en la portada
+y secciones*/
+/*/////////////////////////////////////////*/
+#secprod2{
+	float:left;
+	background-color:#EAE4E3;
+	width:30.5%;
+	margin-left:1%;
+	height:550px;
+	overflow-x:hidden;
+	overflow-y:scroll;
+}
+/*/////////////////////////////////////////////*/
+/*Seccion de noticias y anuncios de la portada*/
+/*////////////////////////////////////////////*/
+#secanun1{
+	float:left;
+	background-color:#EAE4E3;
+	width:30%;
+	margin-left:1%;
+	height:550px;
+}
+#secanun1 h2{
+	margin-left:2%;
+	padding-top:2%;
+	margin-bottom:-1%;
+}
+/*/////////////////////////////////////////*/
+/*Footer para el pie de la pagina*/
+/*/////////////////////////////////////////*/
+#pie{
+	float:left;
+	background-color:#208935;
+	width:100%;
+	height:100px;
+	margin-top:2%;
+	border-top: 2px solid gray;
+	/*border-radius: 0px 0px 25px 25px;*/
+}
+#pie ul{
+	float:left;
+	margin-left:5%;
+}
+#pie li a{
+	text-decoration:none;
+}
+/*//////////////////////////////////////////////////*/
+/*Class para los productos con un tamaño fijo de 200*/
+/*/////////////////////////////////////////////////*/
+.prodest {
+	height:200px;
+	background-color:white;
+	margin-left:1%;
+	margin-top:1%;
+	border:1px solid gray;
+	border-radius: 10px 10px 10px 10px;
+}
+/*/////////////////////////////////////////*/
+/*Seccion dentro de un article prodest
+para la imagen y pie del producto*/
+/*/////////////////////////////////////////*/
+.imagen-arti{
+	float:left;
+	width:40%;
+	margin-left:1%;
+	margin-top:1%;
+}
+.imagen-arti img{
+	width:100%;
+	border:1px solid gray;
+	height:125px;
+	border-radius: 10px 0px 0px 0px;
+}
+.imagen-arti pie{
+	font-size:15px;
+	float:left;
+}
+/*/////////////////////////////////////////*/
+/*Seccion dentro de un article prodest
+para el nombre,descripcion y pie del producto*/
+/*/////////////////////////////////////////*/
+.descrip{
+	float:left;
+	width:60%;
+	height:200px;
+	margin-top:1%;
+}
+.descrip a,.descrip a:hover,.descrip a:visited{
+	color:black;
+	text-decoration:none;
+}
+
+.descrip nombre{
+	float:left;
+	font-size:20px;
+	margin-left:1%;
+	width:100%;
+	font-weight:bold;
+}
+.descrip descripcion{
+	float:left;
+	width:100%;
+	margin-left:1%;
+}
+.descrip precio{
+	float:right;
+	background-color:orange;
+	padding-top:1%;
+	bottom:10px;
+	text-align:center;
+	width:40%;
+	height:12%;
+	border-radius: 10px 10px 10px 10px;
+	
+}
+.descrip{
+	float:left;
+	width:55%;
+	margin-left:1%;
+}
+.descrip nombre{
+	float:left;
+	font-size:20px;
+	margin-left:1%;
+}
+
+/*/////////////////////////////////////////*/
+/*Articulos para ultimas noticias*/
+/*/////////////////////////////////////////*/
+#ultnoticias{
+	float:left;
+	width:95%;
+	height:30%;
+	border:1px solid gray;
+	background-color:white;
+	margin-left:2.5%;
+	margin-top:2%;
+	margin-bottom:4%;
+}
+/*/////////////////////////////////////////*/
+/*Articulos para la publicididad*/
+/*/////////////////////////////////////////*/
+.anuncion{
+	float:left;
+	width:95%;
+	height:30%;
+	border:1px solid gray;
+	background-color:white;
+	margin-left:2.5%;
+	margin-top:2.5%;
+}
+.anuncion h4,#ultnoticias h4{
+	margin-left:3%;
+	margin-bottom:-2%;
+}
+.anuncion p,#ultnoticias p{
+	margin-left:3%;
+}
+.anuncion img{
+	width:100%;
+	height:100%;
+}
+/*/////////////////////////////////////////*/
+/*Seccion para el formulario*/
+/*/////////////////////////////////////////*/
+#contacto{
+	width:95%;
+	height:65.5%;
+}
+#contacto fieldset{
+	margin-left:5%;
+}
+#contacto form{
+	margin-left:5%;
+}
+#contacto textarea{
+	margin-top:2%;
+}
+#contacto input{
+	margin-top:3%;
+	margin-right:3%;
+}
+/*///////////////////////////////*/
+/*Secciones*/
+/*///////////////////////////////*/
+#articulodestacado-sobre{/*border relativo a la seccion*/
+	border-radius: 0px 15px 0px 0px;
+	border-top:1px solid #38B5A0;
+	margin-bottom:2%;
+	padding-right:1%;
+	height:15px;
+}
+#articulodestacado-port{/*border relativo a la seccion*/
+	border-radius: 0px 15px 0px 0px;
+	border-top:1px solid #8B2626;
+	margin-bottom:2%;
+	padding-right:1%;
+	height:15px;
+}
+
+#articulodestacado-peri{/*border relativo a la seccion*/
+	border-radius: 0px 15px 0px 0px;
+	border-top:1px solid #8B36A4;
+	margin-bottom:2%;
+	padding-right:1%;
+	height:15px;
+}
+
+#articulodestacado-redes{/*border relativo a la seccion*/
+	border-radius: 0px 15px 0px 0px;
+	border-top:1px solid #ED8F1C;
+	margin-bottom:2%;
+	padding-right:1%;
+	height:15px;
+}
+#articulodestacado-comp{/*border relativo a la seccion*/
+	border-radius: 0px 15px 0px 0px;
+	border-top:1px solid #BCBF13;
+	margin-bottom:2%;
+	padding-right:1%;
+	height:15px;
+}
+#articulodestacado-comp h1,#articulodestacado-port h1,#articulodestacado-sobre h1,#articulodestacado-peri h1,#articulodestacado-redes h1{
+	margin-top:1%;
+	margin-bottom:-1%;
+	
+}
+/*///////////////////////////////*/
+/*Productos*/
+/*///////////////////////////////*/
+#cajon-prod-opi{
+	float:left;
+	margin-top:1%;
+}
+#producto{
+	float:left;
+	height:600px;
+	background-color:white;
+	padding-left:1%;
+	margin-right:1%;
+	padding-top:1%;
+	border:1px solid gray;
+	border-radius: 0px 0px 10px 10px;
+	width:70%;
+}
+/*///////////////////////////////*/
+/*Productos-Seccion de opiniones*/
+/*///////////////////////////////*/
+#opinion{
+	float:left;
+	height:200px;	
+	margin-top:-100px;
+	margin-left:1%;
+	width:70%;
+	overflow-x:hidden;
+	overflow-y:scroll;
+}
+#opinion h3{
+	margin-left:1%;
+	margin-top:0%;
+
+}
+#ncoment{
+float:left;
+width:70%;
+}
+#ncoment form input{
+	
+}
+/*/////////////////////////////////////////////////////*/
+/*Productos-Seccion de Opinion-Titulo*/
+/*////////////////////////////////////////////////////*/
+#etiqueta-opi{
+	float:left;
+	padding-right:50%;
+	margin-top:-135px;
+	margin-left:1%;
+
+}
+/*/////////////////////////////////////////////////////*/
+/*Productos-Seccion de opiniones-Caja de comentario*/
+/*////////////////////////////////////////////////////*/
+.comentario{
+	width:98%;
+	background-color:white;
+	margin-left:1%;
+	margin-right:1%;
+	margin-bottom:1%;
+	border:1px solid gray;
+	border-radius: 10px 10px 10px 10px;
+}
+.comentario h3{
+	float:left;
+	margin:0%;
+	margin-right:1%;
+}
+.comentario h6{	
+	width:70%;
+	padding-top:1%;
+	margin-left:0%;
+	margin-top:0%;
+}
+.comentario hr{
+	margin-top:-2.5%;
+	margin-bottom:-2%;
+	color:black;
+}
+.comentario p{
+	margin-left:1%;
+	padding-bottom:1%;
+}
+/*/////////////////////////////////////////////////////*/
+/*Productos-Seccion de Productos relacionados*/
+/*////////////////////////////////////////////////////*/
+#productosre{
+	float:left;
+	margin-top:-1%;
+	margin-bottom:1%;
+	width:26%;
+	height:300px;
+	background-color:white;
+	border:1px solid gray;
+	overflow-x:hidden;
+	overflow-y:scroll;
+}
+/*/////////////////////////////////////////////////////*/
+/*Productos-Seccion de Anuncios*/
+/*////////////////////////////////////////////////////*/
+#caja-anun{
+	float:left;
+	margin-top:-1%;
+	margin-bottom:1%;
+	border:1px solid gray;
+	width:26%;
+	height:350px;
+	background-color:white;
+}
+
+/*/////////////////////////////////////////////////////*/
+/*lista de elementos*/
+/*////////////////////////////////////////////////////*/
+#lista{
+	list-style:none;
+	width:60%;
+	float:left;
+}
+#lista td {
+	border-bottom:1px solid gray;
+}
+
+
